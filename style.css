@@ -31,14 +31,17 @@ body {
   background-color: var(--Eggshell);
   color: var(--Wenge-Brown);
   padding: 125px 0;
+  display: grid;
+  place-content: center;
 }
 
 .container {
   max-width: 750px;
   margin: auto;
   background-color: var(--White);
-  border-radius: 1rem;
+  border-radius: 10px;
   padding: 40px;
+  
 }
 
 .ml {
@@ -57,18 +60,22 @@ h1,
 h2 {
   color: var(--Nutmeg);
   font-family: "young-serif", serif;
-  padding: 35px 0;
+  padding: 10px 0;
   font-weight: 400;
+  margin: 15px 0 10px;
+  font-size: 30px;
 }
 
 .logo img {
   width: 100%;
   object-fit: contain;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 .container .intro h1 {
   color: var(--Dark-Charcoal);
+  font-weight: 400;
+  font-size: 40px;
 }
 .container .intro p {
   margin-bottom: 30px;
@@ -76,16 +83,23 @@ h2 {
 
 .pre {
   background-color: var(--Rose-White);
-  padding: 0 30px 30px;
-  border-radius: 1rem;
+  padding: 10px 30px 20px;
+  border-radius: 10px;
 }
 .pre h2 {
   font-family: outfit;
   font-weight: 600;
+  font-size: 20px;
+  margin-top: 5px;
+  color: var(--Dark-Raspberry);
+}
+.pre li::marker{
+  color: var(--Dark-Raspberry);
 }
 
 span {
   font-weight: 700;
+  color: var(--Wenge-Brown);
 }
 
 .ingredients {
